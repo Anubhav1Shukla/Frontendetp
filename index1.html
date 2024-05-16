@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railway-Reservation Forms</title>
+    <style>
+        .container {
+            width: 50%;
+            margin: 0 auto;
+            text-align: center;
+            background-color: rgb(149, 149, 199);
+           
+        }
+        h1{
+            color: white;
+            background-color: aqua;
+            padding: 10px;
+
+        }
+    </style>
+</head>
+<body>
+        <div class="container">
+            <h1>Railway Reservation System</h1>
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="from">From:</label>
+                <select id="from" name="from" required>
+                    <option value="">Boarding Station</option>
+                    <option value="Kashmir">Kashmir</option>
+                    <option value="new-delhi">new-delhi</option>
+                    <option value="kolkata">kolkata</option>
+               
+                </select>
+    
+                <label for="to">To:</label>
+                <select id="to" name="to" required>
+                    <option value="">Destination</option>
+                    <option value="gorakhpur">San Francisco</option>
+                    <option value="deoria">Seattle</option>
+                    <option value="punjab">Miami</option>
+            
+                </select>
+    
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+    
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+</body>
+</html>
+

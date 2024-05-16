@@ -1,0 +1,24 @@
+body{
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #c68787;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+h2{
+    display: flex;
+    justify-content: center;    
+    background-color: rebeccapurple;
+}

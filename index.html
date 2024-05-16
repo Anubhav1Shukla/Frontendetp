@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Airline-Reservation-Form</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <h2>Airline Reservation Form</h2>
+    <form onsubmit="return validateForm()">
+        <label for="name">First Name:</label>
+        <input type="text" placeholder="First-Name" id="name" name="name">
+        <br><br>
+        <label for="name">Last Name:</label>
+        <input type="text" placeholder="Last-Name" id="name" name="name">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Email" id="email" name="email">
+        <br><br>
+
+        <label for="destination">Destination:</label>
+        <select id="destination" name="destination">
+            <option value="select">Select</option>
+            <option value="Lucknow">Lucknow</option>
+            <option value="New-delhi">New-Delhi</option>
+            <option value="Vanarsi">Vanarasi</option>
+            <option value="Punjab">Punjab</option>
+        </select>
+        <br><br>
+
+        <label>Selec SeatTyp:</label><br>
+        <input type="radio" id="economy" name="seat-type" value="Economy">
+        <label for="economy">Economy-Class</label>
+        <br>
+        <input type="radio" id="business" name="seat-type" value="Business">
+        <label for="business">Business-Class</label>
+        <br>
+        <input type="radio" id="first-class" name="seat-type" value="First Class">
+        <label for="first-class">First-Class</label>
+        <br>
+
+        <input type="submit" value="Submit">
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
